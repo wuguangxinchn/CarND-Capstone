@@ -1,4 +1,17 @@
+# CarND-Capstone
+Self-Driving Car Engineer Nanodegree Program - System Integration Project
+
 This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
+
+This submission was tested against Udacity Workspace Simulation environment only, not intend to run on Carla.
+
+The solution in this repository is mainly referring the 4 session walkthroughs: https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/e1f2a5cf-c697-4880-afb2-b88f3f83d07b
+
+
+When using the Udacity workspace as my testing environment, I met an issue that turning on the camera slows car down so auto-mode gets messed up…   
+To solve it, I tried to change the frequency a little bit small (from 50Hz to 10Hz), and sometimes turning off the Camera for a while if there is no traffic light on the road.  
+
+###
 
 Please use **one** of the two installation options, either native **or** docker installation.
 
